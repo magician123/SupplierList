@@ -8,7 +8,6 @@ namespace Supplier.Web.Model
         {
 
         }
-
         public DbSet<Supplier> Suppliers { get; set; }
     }
 }

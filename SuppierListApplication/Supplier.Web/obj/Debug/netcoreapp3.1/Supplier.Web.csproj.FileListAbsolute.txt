@@ -9,7 +9,6 @@ C:\Programming\SupplierList\SuppierListApplication\Supplier.Web\bin\Debug\netcor
 C:\Programming\SupplierList\SuppierListApplication\Supplier.Web\bin\Debug\netcoreapp3.1\Supplier.Web.pdb
 C:\Programming\SupplierList\SuppierListApplication\Supplier.Web\bin\Debug\netcoreapp3.1\Supplier.Web.Views.dll
 C:\Programming\SupplierList\SuppierListApplication\Supplier.Web\bin\Debug\netcoreapp3.1\Supplier.Web.Views.pdb
-C:\Programming\SupplierList\SuppierListApplication\Supplier.Web\obj\Debug\netcoreapp3.1\Supplier.Web.csprojAssemblyReference.cache
 C:\Programming\SupplierList\SuppierListApplication\Supplier.Web\obj\Debug\netcoreapp3.1\Supplier.Web.AssemblyInfoInputs.cache
 C:\Programming\SupplierList\SuppierListApplication\Supplier.Web\obj\Debug\netcoreapp3.1\Supplier.Web.AssemblyInfo.cs
 C:\Programming\SupplierList\SuppierListApplication\Supplier.Web\obj\Debug\netcoreapp3.1\Supplier.Web.RazorAssemblyInfo.cache
@@ -359,3 +358,7 @@ C:\Programming\SupplierList\SuppierListApplication\Supplier.Web\bin\Debug\netcor
 C:\Programming\SupplierList\SuppierListApplication\Supplier.Web\obj\Debug\netcoreapp3.1\Supplier.Web.csproj.CoreCompileInputs.cache
 C:\Programming\SupplierList\SuppierListApplication\Supplier.Web\obj\Debug\netcoreapp3.1\Supplier.Web.MvcApplicationPartsAssemblyInfo.cs
 C:\Programming\SupplierList\SuppierListApplication\Supplier.Web\obj\Debug\netcoreapp3.1\Supplier.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Programming\SupplierList\SuppierListApplication\Supplier.Web\obj\Debug\netcoreapp3.1\Razor\Pages\SupplierList\Index.cshtml.g.cs
+C:\Programming\SupplierList\SuppierListApplication\Supplier.Web\obj\Debug\netcoreapp3.1\Razor\Pages\SupplierList\Create.cshtml.g.cs
+C:\Programming\SupplierList\SuppierListApplication\Supplier.Web\obj\Debug\netcoreapp3.1\Supplier.Web.csprojAssemblyReference.cache
+C:\Programming\SupplierList\SuppierListApplication\Supplier.Web\obj\Debug\netcoreapp3.1\Razor\Pages\SupplierList\Edit.cshtml.g.cs

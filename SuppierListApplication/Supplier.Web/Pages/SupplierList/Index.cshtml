@@ -1,0 +1,70 @@
+﻿@page
+@model Supplier.Web.Pages.SupplierList.IndexModel
+
+<br />
+<div class="container row p-0 m-0">
+
+    <div class="col-9">
+        <h2 class="text-info"> Supplier List</h2>
+    </div>
+    <div class="col-3">
+        <a asp-page="Create" class="btn btn-info form-control text-white">Create New Supplier</a>
+    </div>
+
+    <div class="col-12 border p-3 mt-3">
+        <form method="post">
+            @if (Model.Suppliers.Count() > 0)
+            {
+                <table>
+                    <tr class="table table-striped border">
+                        <th>
+                            <label asp-for="Suppliers.FirstOrDefault().Name"></label>
+                        </th>
+                        <th>
+                            <label asp-for="Suppliers.FirstOrDefault().City"></label>
+                        </th>
+                        <th>
+                            <label asp-for="Suppliers.FirstOrDefault().PhoneNumber"></label>
+                        </th>
+                        <th>
+                            <label asp-for="Suppliers.FirstOrDefault().Email"></label>
+                        </th>
+
+                    </tr>
+                    @foreach (var item in Model.Suppliers)
+                    {
+                        <tr>
+                            <td>
+                                @item.Name
+                            </td>
+                            <td>
+                                @item.City
+                            </td>
+                            <td>
+                                @item.PhoneNumber
+                            </td>
+                            <td>
+                                @item.Email
+                            </td>
+
+                            <td>
+                                <button asp-page-handler="Delete" asp-route-id="@item.Id" onclick="return confirm('Are you sure you want to delete?')" class="btn btn-danger btn-sm">Delete</button>
+                                <a asp-page="Edit" asp-route-id="@item.Id" class=" btn btn-success btn-sm text-white">Edit</a>
+                            </td>
+                        </tr>
+
+                    }
+                </table>
+
+            }
+
+            else
+            {
+                <p>No Suppliers Added As Yet</p>
+            }
+
+        </form>
+
+    </div>
+
+</div>

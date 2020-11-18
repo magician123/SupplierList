@@ -23,7 +23,7 @@ namespace Supplier.Web
 
             services.AddRazorPages().AddRazorRuntimeCompilation();
             services.AddDbContext<SupplierDbContext>(options =>
-           options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
+                                                     options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
